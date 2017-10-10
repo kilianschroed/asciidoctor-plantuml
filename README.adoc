@@ -1,0 +1,12 @@
+= Sample
+
+Sample to show relative imports within PlantUML not working in Asciidoctor if the UML files are not in the Asciidoctor root path.
+
+== Steps to reproduce
+
+* Have a recent Java installed
+* Clone the repo
+* `./mvnw clean package`
+* Open `target/generated-docs/index.html`
+
+The image displayed reports the import to be erroneous.

@@ -1,0 +1,6 @@
+[plantuml]
+....
+@startuml
+!include foo.uml2
+@enduml
+....

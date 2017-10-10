@@ -1,0 +1,3 @@
+= Sample
+
+include::models/bar.uml2[]
