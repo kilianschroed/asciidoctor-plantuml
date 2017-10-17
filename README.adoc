@@ -1,5 +1,14 @@
 = Sample
 
+== Update
+
+Thanks to the help of @pepijnve this is working in the meantime. The crucial corrections where:
+
+- Removing the Asciidoctor syntax in the PlantUML files (i.e. `[plantuml]`, `....`-blocks etc.)
+- Using `plantuml::…` instead of `include::…` syntax for pulling in the files into the Asciidoctor document
+
+== The problem
+
 Sample to show relative imports within PlantUML not working in Asciidoctor if the UML files are not in the Asciidoctor root path.
 
 == Steps to reproduce

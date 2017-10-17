@@ -1,8 +1,5 @@
-[plantuml]
-....
 @startuml
 namespace foo {
 	class SomeType
 }
 @enduml
-....
